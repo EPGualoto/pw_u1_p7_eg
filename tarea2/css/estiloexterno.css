@@ -32,17 +32,17 @@ nav a {
     text-decoration: none;
 }
 
-section.articles {
+.articles {
     padding: 20px;
     background-color: #e0e0e0;
     text-align: center;
 }
 
-section.articles h2 {
+.articles h2 {
     color: #4a4a8a;
 }
 
-section.articles blockquote {
+.articles blockquote {
     font-style: italic;
     margin: 20px auto;
     width: 60%;
@@ -50,17 +50,17 @@ section.articles blockquote {
     text-align: center;
 }
 
-section.articles blockquote footer {
+.articles blockquote footer {
     font-weight: bold;
 }
 
-section.gallery {
+.gallery {
     padding: 20px;
     background-color: #f4f4f9;
     text-align: center;
 }
 
-section.gallery h2 {
+.gallery h2 {
     color: #4a4a8a;
 }
 
