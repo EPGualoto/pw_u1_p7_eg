@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    background-image: url(/tarea2/img/fondo.jpg);
+    height: 50px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav {
+    background-color: rgba(155, 155, 14, 0.848);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+section.articles {
+    padding: 20px;
+    background-color: #e0e0e0;
+    text-align: center;
+}
+
+section.articles h2 {
+    color: #4a4a8a;
+}
+
+section.articles blockquote {
+    font-style: italic;
+    margin: 20px auto;
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+section.articles blockquote footer {
+    font-weight: bold;
+}
+
+section.gallery {
+    padding: 20px;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+section.gallery h2 {
+    color: #4a4a8a;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.gallery-images img {
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.gallery-images img:first-child {
+    width: 250px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer p {
+    margin: 0;
+}
